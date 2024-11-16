@@ -1,0 +1,16 @@
+[package]
+name = "firstDapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+sender = "0xe62748b3b2125043c18722e01e04ecd78350c1de726770e521f5943a5df9d311"
+
+[dev-dependencies]
